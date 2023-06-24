@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    /* border: 1px solid red; */
+    background-color: black;
+    color: white;
+}
+#profile-body{
+    height: 100vh;
+}
+#display-fields{
+   margin-top: 100px;
+   padding: 0px 0px 0px 30px;
+   font-size: 36px;
+}
+
+#out{
+    padding: 5px;
+    width: 5%;
+    cursor: pointer;
+    
+}

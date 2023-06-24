@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+}
+#div-body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    /* border: 1px solid blue; */
+}
+
+#left{
+    padding: 20px;
+    font-size: 24px;
+}
+#right{
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    gap:40px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#signup-box{
+    /* border: 1px solid red; */
+    flex-grow: 1;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#center-box{
+    width:500px;
+    margin: auto;
+    padding-top: 150px;
+   
+}
+
+#input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+input{
+    background-color: black;
+    border: 0px;
+    border-bottom: 1px solid white;
+    padding:10px;
+    color:white;
+    font-size: large;
+   
+}
+
+#submit-btn{
+    padding: 10px;
+    width: 20%;
+}
+
+#err-msg{
+    color: red;
+}
+
+#success-msg{
+    color: green;
+}
